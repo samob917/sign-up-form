@@ -19,6 +19,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+    display: flex;
+}
 
 .deco {
     background-image: url("quentin-zwzeorQPepo-unsplash.jpg");
