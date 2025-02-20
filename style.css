@@ -60,3 +60,10 @@ body {
     font-family: "Delicious Handrawn", serif;
     font-size: 40px;
 }
+
+.content {
+    width: 66vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
