@@ -66,4 +66,12 @@ body {
     padding: 5%;
     display: flex;
     flex-direction: column;
+    gap: 2em;
+}
+form div {
+    display: flex;
+    gap: 5%
+}
+label, input {
+    display: block;
 }
