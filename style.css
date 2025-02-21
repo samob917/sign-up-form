@@ -70,15 +70,26 @@ body {
     gap: 2em;
     margin-right: 4em;
     padding: 0;
+    font-family: "Inconsolata", serif;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.desc {
+    padding-left: 5vw;
+    padding-top: 20px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-size: 24px;
 }
 
 .form-div{
     background-color: white;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 8px 4px -4px gray;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+    padding: 20px 0 10px 5vw;
 }
 form {
     width: 50vw;
@@ -111,4 +122,25 @@ input {
 }
 input:invalid {
     border: 1px solid red;
+}
+
+.submit {
+    padding-left: 5vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+button {
+    background-color: lightpink;
+    border: 1px solid lightgray;
+    color: white;
+    border-radius: 8%;
+    padding: 10px 40px;
+    width: 200px;
+}
+
+.submit p {
+    font-weight: 200;
 }
