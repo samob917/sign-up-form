@@ -82,21 +82,33 @@ body {
 }
 form {
     width: 50vw;
+    font-family: "Inconsolata", serif;
+    font-weight: 100;
+
+}
+form h1 {
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 1.5em;
 }
 form div {
     display: flex;
     gap: 5%; 
+    padding-bottom: 1em;
 }
 
 label, input {
     display: block;
+    width: 200px;
 }
 
 .desc,
 .submit {
     background-color: lightgray;
 }
-
+input {
+    border: 1px solid lightgray;
+}
 input:invalid {
     border: 1px solid red;
 }
