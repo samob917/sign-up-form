@@ -40,6 +40,10 @@ body {
     color: lightgray;
 }
 
+.deco a:visited {
+    color: lightgray;
+}
+
 .logo {
     margin-top: 10em;
     position: relative;
